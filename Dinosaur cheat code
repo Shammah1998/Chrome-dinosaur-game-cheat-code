@@ -1,0 +1,3 @@
+Runner.prototype.defRunner = Runner.prototype.gameOver;
+Runner.prototype.gameOver = function() { console.log("Game Over"); }
+Runner.instance_.setSpeed(15000);
